@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AudioDash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nz5-My-PtU">
+                    <rect key="frame" x="117" y="0.0" width="534" height="378"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="378" id="Ioh-pt-5sb"/>
+                        <constraint firstAttribute="width" constant="534" id="JEV-wx-mEK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="47"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UCI COSMOS Cluster 5 Group 3 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puo-H1-lXj">
+                    <rect key="frame" x="157" y="916" width="455" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="455" id="P4h-AI-KKd"/>
+                        <constraint firstAttribute="height" constant="21" id="UPL-4w-AuG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ⓘ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfO-A6-FOi">
+                    <rect key="frame" x="349" y="400" width="71" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="71" id="xAo-3u-bD8"/>
+                        <constraint firstAttribute="height" constant="76" id="z7M-fa-hsf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before starting a training session, remember to wear headphones" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrb-Zq-2li">
+                    <rect key="frame" x="185" y="484" width="398" height="111"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="111" id="4eO-DL-qeF"/>
+                        <constraint firstAttribute="width" constant="398" id="IR1-y6-dAW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.65595256979695438" green="0.59879005158282095" blue="0.61960944284911956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Puo-H1-lXj" secondAttribute="bottom" constant="87" id="8ia-3d-5cY"/>
+                <constraint firstItem="nz5-My-PtU" firstAttribute="centerX" secondItem="QfO-A6-FOi" secondAttribute="centerX" id="Amb-wA-CDR"/>
+                <constraint firstItem="QfO-A6-FOi" firstAttribute="top" secondItem="nz5-My-PtU" secondAttribute="bottom" constant="22" id="FZe-eq-MVz"/>
+                <constraint firstItem="nz5-My-PtU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GEw-eI-kj7"/>
+                <constraint firstItem="nz5-My-PtU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="d9b-NL-vFR"/>
+                <constraint firstItem="Zrb-Zq-2li" firstAttribute="top" secondItem="QfO-A6-FOi" secondAttribute="bottom" constant="8" symbolic="YES" id="haQ-1M-0IU"/>
+                <constraint firstItem="Zrb-Zq-2li" firstAttribute="centerX" secondItem="Puo-H1-lXj" secondAttribute="centerX" id="k8m-4r-oqH"/>
+                <constraint firstItem="QfO-A6-FOi" firstAttribute="centerX" secondItem="Zrb-Zq-2li" secondAttribute="centerX" id="wjU-ll-r8B"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

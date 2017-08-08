@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AudioDash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wF-Ju-dHk">
+                                <rect key="frame" x="117" y="-51" width="534" height="378"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="378" id="khV-EY-VBs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before starting a training session, remember to hold your device with the screen facing up." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTj-hj-B9e">
+                                <rect key="frame" x="157" y="505" width="455" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="9D8-DK-7aN"/>
+                                    <constraint firstAttribute="width" constant="455" id="mt7-gg-PR3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ⓘ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQT-ab-QL3">
+                                <rect key="frame" x="349" y="421" width="71" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="Cb4-bW-sqs"/>
+                                    <constraint firstAttribute="height" constant="76" id="Tf3-k1-Uww"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UCI COSMOS Cluster 5 Group 3 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1W-Tu-ixX">
+                                <rect key="frame" x="157" y="951" width="455" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jfL-g8-gF7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lTj-hj-B9e" firstAttribute="leading" secondItem="m1W-Tu-ixX" secondAttribute="leading" id="2LS-eX-JkT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="m1W-Tu-ixX" secondAttribute="bottom" constant="52" id="5ng-Ez-M8L"/>
+                            <constraint firstItem="3wF-Ju-dHk" firstAttribute="centerX" secondItem="MQT-ab-QL3" secondAttribute="centerX" id="Dnj-qA-Ltv"/>
+                            <constraint firstItem="3wF-Ju-dHk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="97" id="dS5-Oo-CRp"/>
+                            <constraint firstItem="MQT-ab-QL3" firstAttribute="top" secondItem="3wF-Ju-dHk" secondAttribute="bottom" constant="94" id="dVR-1A-cnq"/>
+                            <constraint firstItem="MQT-ab-QL3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hhD-qL-Npo"/>
+                            <constraint firstItem="3wF-Ju-dHk" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-51" id="odJ-Hh-B5e"/>
+                            <constraint firstItem="lTj-hj-B9e" firstAttribute="trailing" secondItem="m1W-Tu-ixX" secondAttribute="trailing" id="sb9-x8-zrX"/>
+                            <constraint firstItem="MQT-ab-QL3" firstAttribute="centerX" secondItem="lTj-hj-B9e" secondAttribute="centerX" id="uST-fh-HXX"/>
+                            <constraint firstItem="lTj-hj-B9e" firstAttribute="top" secondItem="MQT-ab-QL3" secondAttribute="bottom" constant="8" symbolic="YES" id="ubG-hS-OUM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.5625" y="374.4140625"/>
+        </scene>
+    </scenes>
+</document>
